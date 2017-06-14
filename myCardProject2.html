@@ -1,37 +1,17 @@
 <!DOCTYPE html>
-<html class="no-js ng-scope" ng-app="myapp">
+<html class="no-js ">
 <head>
-
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Keep track of your simcards and understand how often they discount."/>
     <title>华正物联网卡</title>
     <link href="images/cmcc.ico" rel="SHORTCUT ICON"/>
+
+    <link href='styles/style.css' rel='stylesheet'/>
     <link href="styles/mcp2.css" rel="stylesheet">
-
-    <meta name="description" content="Keep track of your simcards and understand how often they discount."/>
-    <meta property="og:locale" content="zh_cn"/>
-    <meta property="og:type" content="website"/>
-    <meta property="og:title" content="Simcard management platform by Huaz"/>
-    <meta property="og:description" content="专业的流量运营平台"/>
-    <meta property="og:url" content="http://anthonyzhang.cn/cardProject/myCardProject2.html/"/>
-    <meta property="og:site_name" content="华正物联网卡"/>
-    <meta property="og:image" content="images/cmcc.ico"/>
-
-    <script src="scripts/angular.min.js"></script>
-
-    <link rel='stylesheet' id='style-css'
-          href='styles/style.css' type='text/css'
-          media='all'/>
-
-    <style type="text/css">
-        body, html {
-            margin: 0 !important;
-        }
-    </style>
 </head>
 
-<body class="home page-template page-template-p age-raw page-template-page-raw-php page page-id-5">
-
+<body class="home">
 
 <div class="home">
     <div class="header-box">
@@ -40,14 +20,14 @@
                 <h1>使用华正物联网卡<br/>将你的设备带入无线互联时代</h1>
                 <form method="post" action="Logincheck.js">
                     <div class="form-group" style="padding-bottom: 10px;">
-                        <input type="text" id="txtUserName" name="userName" ng-model="login.formData.uid" placeholder="用户名" class="form-control ng-dirty ng-valid-parse ng-valid ng-valid-required ng-touched" autocomplete="off" value="" required="" style="">
+                        <input type="text" id="txtUserName" name="userName"  placeholder="用户名" class="form-control" autocomplete="off" value="" required="" style="">
                     </div>
                     <div class="form-group">
-                        <input type="password" placeholder="密码" id="txtUserPwd" name="userPwd" ng-model="login.formData.pwd" class="form-control ng-untouched ng-dirty ng-valid-parse ng-valid ng-valid-required" autocomplete="off" value="" required="" style="">
+                        <input type="password" placeholder="密码" id="txtUserPwd" name="userPwd"class="form-control " autocomplete="off" value="" required="" style="">
                     </div>
                     <div class="checkbox-inline">
                         <label style="font-size: larger;line-height: 2em;color: aliceblue;">
-                            <input type="checkbox" name="remember" ng-model="login.formData.remember" class="ng-pristine ng-untouched ng-valid">记住帐号
+                            <input type="checkbox" name="remember" >记住帐号
                         </label>
                     </div>
                     <div class="form-group">
